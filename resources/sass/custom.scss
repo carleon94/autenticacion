@@ -1,0 +1,23 @@
+html { overflow-y: auto }
+
+.v-application {
+    background-color: var(--v-background-base) !important;
+}
+.container {
+    max-width: 1920px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:none;
+}
+.v-tab {
+    text-transform: none;
+}
+.v-btn {
+    text-transform: none;
+    &:focus {
+        outline: none;
+    }
+}
